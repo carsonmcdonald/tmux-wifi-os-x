@@ -6,7 +6,7 @@ Display your WIFI info in a tmux window on OS X.
 
 ## Usage
 
-Put something this in your .tmux.conf file:
+Put the wifi-signal-strength script in your PATH somewhere and then add something this in your .tmux.conf file:
 
     set -g status-right: '#(wifi-signal-strength)'
 
