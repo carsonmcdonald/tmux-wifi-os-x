@@ -2,7 +2,7 @@
 
 Display your WIFI info in a tmux window.
 
-![Screenshot](/raw/master/screenshot.png)
+![Screenshot](https://github.com/carsonmcdonald/tmux-wifi-os-x/raw/master/screenshot.png)
 
 ## Use
 
