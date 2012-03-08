@@ -1,10 +1,10 @@
 ## WIFI + tmux
 
-Display your WIFI info in a tmux window.
+Display your WIFI info in a tmux window on OS X.
 
 ![Screenshot](https://github.com/carsonmcdonald/tmux-wifi-os-x/raw/master/screenshot.png)
 
-## Use
+## Usage
 
 Put something this in your .tmux.conf file:
 
