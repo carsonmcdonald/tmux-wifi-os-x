@@ -18,6 +18,11 @@ state=`echo $current | cut -d";" -f2-2 | cut -d" " -f2-`
 bandwidth=`echo $current | cut -d";" -f3-3 | cut -d" " -f2-`
 name=`echo $current | cut -d";" -f4-4 | cut -d" " -f2-`
 
+if [ "$state" != "running" ]
+then
+  echo "(WIFI off)"
+fi
+
 signal="( "
 for (( j = 0; j < 4; j++ ))
 do
